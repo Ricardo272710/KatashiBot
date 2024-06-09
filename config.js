@@ -122,8 +122,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "☆𝙨𝙥𝙞𝙙𝙚𝙧 𝙗𝙤𝙩☆"
-global.author = "✥𝙍𝙞𝙘𝙖𝙧𝙙𝙤 𝘼𝘿𝙈✥"
+global.packname = "𝙨𝙥𝙞𝙙𝙚𝙧 𝙗𝙤𝙩"
+global.author = "𝙍𝙞𝙘𝙖𝙧𝙙𝙤 𝘼𝘿𝙈"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > CUENTAS E INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
