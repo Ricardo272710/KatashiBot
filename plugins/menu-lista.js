@@ -1,6 +1,6 @@
 // Botones interactivos adaptados y funcionando por Gata Dios (GataNina-Li)
 
-import { getDevice } from '@whiskeysockets/baileys'
+/*import { getDevice } from '@whiskeysockets/baileys'
 import fs from 'fs'
 import moment from 'moment-timezone'
 import fetch from 'node-fetch'
