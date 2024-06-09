@@ -29,8 +29,6 @@ let vs8txt = `
 │⚜️ ➤ 
 │⚜️ ➤ 
 ╰─────────────╯
-               
-
 ` //Aquí arriba cambiar el texto sin borrar las comillas
 await conn.sendFile(m.chat, 'https://telegra.ph/file/0ea56fa1fba7bdbb619ae.jpg', 'fantasy.jpg', vs8txt.trim(),
 //En esta imagen vas a poner el url de la imagen grande
@@ -41,8 +39,8 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: Free Fire,
-body: vs,
+title: `Free Fire`,
+body: `vs`,
 mediaType: 1,
 sourceUrl: 'https://www.instagram.com/ricardoookadm_',
 thumbnailUrl: 'https://telegra.ph/file/0ea56fa1fba7bdbb619ae.jpg'
@@ -51,5 +49,5 @@ thumbnailUrl: 'https://telegra.ph/file/0ea56fa1fba7bdbb619ae.jpg'
 }, { mentions: m.sender })
 
 }
-handler.command = /^(pruebakatas|vs8)$/i
+handler.command = /^(8vs8|vs8)$/i
 export default handler
