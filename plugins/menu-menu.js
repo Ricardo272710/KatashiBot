@@ -82,13 +82,13 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+let menu = `╭═══〘卐 _𝙨𝙥𝙞𝙙𝙚𝙧 bot MD_ 卐〙═══⊷❍
 ┃☭╭──────────────
-┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
+┃☭│ 〘  _ᴏᴡɴᴇʀs ᴏғᴄ_  〙
 ┃☭│ 
-┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
+┃☭│ _𝙍𝙞𝙘𝙖𝙧𝙙𝙤 𝘼𝘿𝙈 🥷🏻_
 ┃☭│ _ɪᴢɪ_ 𝅙
-┃☭│ シWɪʟsᴏɴシ︎
+┃☭│ シanthony orgシ︎
 ┃☭│
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
@@ -107,62 +107,6 @@ let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _INFO DEL USER_ 卐〙════⊷❍
-
-┃☭│ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
-┃☭│ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
-┃☭│ _Registrado »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
-┃☭│ _${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
-┃☭│ _${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
-┃☭│ _${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
-┃☭│ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeGB['smsResultPareja']()}*_`}
-┃☭│ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
-
-╭═══〘卐 _Recursos del user_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _Experiencia ➟_ ${exp} ×͜×
-┃☭│ _Diamantes ➟_ ${limit} 💎
-┃☭│ _KataCoins ➟_ ${money} ⫹⫺
-┃☭│ _Tokens ➟_ ${joincount} ✧
-┃☭╰───────────────
-╰═════════════════⊷
-
-${readMore}
-
-╭═══〘卐 _I N F O - K A T A S H I_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}cuentaskatashi | cuentaskb_
-┃☭│ _${usedPrefix}gruposkb | grupos | groupkb_
-┃☭│ _${usedPrefix}donar | donate_
-┃☭│ _${usedPrefix}listagrupos | grouplist_
-┃☭│ _${usedPrefix}estado | heykata | status_
-┃☭│ _${usedPrefix}infokata | infobot_
-┃☭│ _${usedPrefix}instalarbot | installbot_
-┃☭│ _${usedPrefix}creador | owner_      
-┃☭│ _${usedPrefix}velocidad | ping_      
-┃☭│ _términos y condiciones_
-┃☭│ _Bot_ 
-┃☭╰───────────────
-╰═════════════════⊷
-
-╭═══〘卐 _SUB BOT KATASHI_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}serbot | jadibot_
-┃☭│ _${usedPrefix}bots | listjadibots_
-┃☭│ _${usedPrefix}detener | stop_
-┃☭╰───────────────
-╰═══════════════════⊷
-
-╭═══〘卐 _REPORTES_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}reporte *texto*_
-┃☭│ _Haga un reporte_
-┃☭│ _en caso de una falla_
-┃☭│ _en algun comando_
-┃☭╰───────────────
-╰═════════════════⊷
 
 ╭═══〘卐 _User Premium_ 卐〙═══⊷❍
 ┃☭╭──────────────
@@ -218,7 +162,7 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭═══〘卐 _IA KATASHI_ 卐〙═══⊷❍
+╭═══〘卐 _IA 𝙨𝙥𝙞𝙙𝙚𝙧 𝙗𝙤𝙩_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _puedes buscar lo que deseas usando:_
 ┃☭│ _${usedPrefix}simi | ia *texto*_
@@ -228,7 +172,7 @@ ${readMore}
 ╰═════════════════⊷
 
 ╭════〘卐 AJUSTES EN CHATS/GRUPOS 卐〙════⊷❍
-│ _Puedes mejorar tu grupo con Katashi bot_
+│ _Puedes mejorar tu grupo con 𝙨𝙥𝙞𝙙𝙚𝙧 𝙗𝙤𝙩 bot_
 ┃☭│ _${usedPrefix}on *:* off *bienvenida | welcome*_
 ┃☭│ _${usedPrefix}on *:* off *avisos | detect*_
 ┃☭│ _${usedPrefix}on *:* off *autonivel | autolevelup*_
@@ -281,7 +225,6 @@ ${readMore}
 ┃☭│ _${usedPrefix}tiktokfoto | tiktokphoto *usuario(a)*_
 ┃☭│ _${usedPrefix}vertiktok | tiktokstalk *usuario(a)*_
 ┃☭│ _${usedPrefix}mediafire | dlmediafire *link*_
-┃☭│ _${usedPrefix}clonarepo | gitclone *link*_
 ┃☭│ _${usedPrefix}clima *país ciudad*_
 ┃☭│ _${usedPrefix}consejo_
 ┃☭│ _${usedPrefix}morse codificar *texto*_
@@ -293,7 +236,7 @@ ${readMore}
 
 ╭═══〘卐 _Chat Anonimo_ 卐〙═══⊷❍
 ┃ _podras enviar mensajes a otra
-┃ _persona usando a Katashi bot_
+┃ _persona usando a 𝙨𝙥𝙞𝙙𝙚𝙧 𝙗𝙤𝙩 bot_
 ┃
 ┃☭│ _${usedPrefix}chatanonimo | anonimochat_
 ┃☭│ _${usedPrefix}anonimoch_
@@ -351,15 +294,6 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
  
-╭════〘卐 _Votaciones en grupos_ 卐〙════⊷❍
-│
-┃☭│ _${usedPrefix}crearvoto | startvoto *texto*_ 
-┃☭│ _${usedPrefix}sivotar | upvote_ 
-┃☭│ _${usedPrefix}novotar | devote_ 
-┃☭│ _${usedPrefix}vervotos | cekvoto_
-┃☭│ _${usedPrefix}delvoto | deletevoto_ 
-┃☭╰─────────────────❍
-╰══════════════════⊷❍ 
  
 ╭════〘卐 _Comandos +18_ 卐〙════⊷❍
 │  ╭──────────────❍
@@ -380,12 +314,6 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍ 
  
-╭════〘卐 *_ᴏᴛʜᴇʀs_* 卐〙════⊷❍
-│☭╭─────────────────
-┃☭│ _${usedPrefix}logos *efecto texto*_
-┃☭│ _${usedPrefix}menulogos2_
-┃☭╰─────────────────
-╰══════════════════⊷❍
 
 ╭════〘卐 *_ᴏᴛʜᴇʀs_* 卐〙════⊷❍
 │☭╭─────────────────❍
@@ -401,8 +329,6 @@ ${readMore}
 
 ╭════〘卐 _IMGNS ANIME Y MAS_ 卐〙════⊷❍
 │
-┃☭│ _${usedPrefix}chica_ 
-┃☭│ _${usedPrefix}chico_
 ┃☭│ _${usedPrefix}cristianoronaldo_
 ┃☭│ _${usedPrefix}messi_
 ┃☭│ _${usedPrefix}meme_
@@ -482,10 +408,10 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _Menu Audios_ 卐〙════⊷❍
+╭════〘 _Menu Audios_ 〙════⊷❍
 │ _Solicita el menu de audios_
 ┃ _usando:_
-┃☭│ _${usedPrefix}audios_
+┃☭│ _${usedPrefix}menuaudios_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
