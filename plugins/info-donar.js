@@ -18,11 +18,11 @@ mentionedJid:[m.sender],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": imagen1, 
-"title": `卐 𝑲𝒂𝒕𝒂𝒔𝒉𝒊 𝑭𝒖𝒌𝒖𝒔𝒉𝒊𝒎𝒂 卐\n${asistencia}`, 
+"title": `卐 𝙨𝙥𝙞𝙙𝙚𝙧 𝙗𝙤𝙩卐`, 
 "containsAutoReply": true,
 "mediaType": 1, 
 "mediaUrl": paypal, 
-"sourceUrl": paypal, 
+"sourceUrl": 'https://paypal.me/RicardoSilva18160', 
 }
 }
 }, { quoted: fkontak })}
